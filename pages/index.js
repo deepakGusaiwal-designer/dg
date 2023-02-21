@@ -5,20 +5,21 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      <Head>
+      <img src="/banner.png" alt="banner" />
+      {/* <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
-      <main>
+      {/* <main>
         <Header title="Welcome to my app!" />
         May bamess
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
-      </main>
+      </main> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
-  )
+  );
 }
